@@ -1,45 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>NJIT Career Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career Portfolio</title>
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #eff6ff, #e0e7ff);
+    text-align:center;
+}
+
+/* Main section */
+.hero{
+    padding:100px 20px;
+}
+
+/* Card */
+.box{
+    background:white;
+    padding:40px;
+    border-radius:12px;
+    max-width:600px;
+    margin:auto;
+}
+
+/* Buttons */
+a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.github{
+    background:black;
+    color:white;
+}
+
+.resume{
+    background:#eef2ff;
+    color:black;
+}
+
+.projects{
+    margin:60px 20px;
+}
+
+.project{
+    background:white;
+    padding:20px;
+    margin:15px auto;
+    max-width:600px;
+    border-radius:10px;
+}
+
+</style>
 </head>
 
-<body class="bg-gradient-to-br from-blue-50 to-indigo-100 font-sans">
+<body>
 
+<section class="hero">
+    <div class="box">
+        <h1>Zeel Patel</h1>
 
-<!-- HERO SECTION -->
-<section class="min-h-screen flex items-center justify-center">
-    <div class="text-center max-w-2xl bg-white p-10 rounded-2xl shadow-lg">
+        <h3>NJIT information Technology Student</h3>
 
-        <h1 class="text-5xl font-bold mb-4">Your Name</h1>
-
-        <h2 class="text-2xl text-gray-600 mb-6">
-            NJIT Information Technology Student
-        </h2>
-
-        <p class="text-lg mb-8">
-            Aspiring Technical Project Manager passionate about building
-            technology solutions that solve real-world problems.
+        <p>
+            Seeking technical opportunities where I can apply my skills
+            to build efficient and impactful solutions.
         </p>
 
-        <div class="space-x-4">
-            <a href="https://github.com/Zeel1503"
-                class="bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition">
-                View My GitHub
-            </a>
+        <strong>Actively seeking internships.</strong>
 
-            <a href="mailto:zhp@njit.edu"
-                class="bg-gray-200 px-6 py-3 rounded-xl hover:bg-gray-300 transition">
-                Request My Resume
-            </a>
-        </div>
+        <br><br>
 
+        <a class="github" href="https://github.com/Zeel153">View GitHub</a>
+        <a class="resume" href="mailto:zhp@njit.edu">Request My Resume</a>
     </div>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h4>Linux Automation</h4>
+        <p>Created Bash scripts to automate system tasks and improve workflow efficiency.</p>
+    </div>
+
+    <div class="project">
+        <h4>Self-Driving Car Ethics Study</h4>
+        <p>Analyzed ethical decision-making in AI using established frameworks.</p>
+    </div>
+
 </section>
 
 </body>
